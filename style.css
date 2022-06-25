@@ -1,0 +1,35 @@
+.heading{
+    width: 100%;
+    font-size: 23px;
+    text-align: left;
+}
+
+.heading h3{
+    text-align: left;
+    display: inline;
+}
+
+.heading button{
+    border: 1px solid white;
+    float:right;
+}
+
+#start,#status{
+    font-size: 25px;
+}
+
+#credits{
+    background-color: whitesmoke;
+    width: 100%;
+    margin: 0px;
+    line-height: 2;
+}
+
+.modal-dialog{
+    width: 90%;
+}
+
+.instruction_image{
+    display: inline-block;
+    width: 45%;
+}
