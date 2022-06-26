@@ -64,6 +64,11 @@ function draw(){
  fill("black");
  stroke("black");
  rect(0,0,20,700);
+ if(rwc>0.2){
+  fill("red");
+  stroke("red");
+  circle(rwx,rwy,30);
+ }
  
    //funtion paddleInCanvas call 
    paddleInCanvas();
